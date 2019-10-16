@@ -3,7 +3,7 @@
 Student: Ona Demuytere
 
 Blender --> glTF
-Welke elementen worden zeker geëxporteerd?
+## Welke elementen worden zeker geëxporteerd?
 - Meshes
 - Materials & shadeless
 - Textures
@@ -11,7 +11,7 @@ Welke elementen worden zeker geëxporteerd?
 - Punctual lights (bv. point, spot, directional)
 - Animation (bv. keyframe, shape key, skinning)
 
-
-Welke elementen worden niet geëxporteerd?
+## Welke elementen worden niet geëxporteerd?
 - Shading (soms)
-- Animation (bv. lights, materials)
+- Animation (bv. lights, materials, skinned model)
+- Embedded images
