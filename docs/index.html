@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src=""></script>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <!-- <a-asset-item id="suzanne" src="assets/suzanne.glb"></a-asset-item> -->
+            <a-asset-item id="suzanne" src="assets/suzanne.gltf"></a-asset-item>
+        </a-assets>
+        <a-entity id="suzanneEntity" gltf-model="#suzanne" modify-materials position="0 0 -5"></a-entity>
+        <a-sky color="#CCCCCC"></a-sky>
+    </a-scene>
+</body>
+
+</html>
