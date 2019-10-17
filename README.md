@@ -1,4 +1,4 @@
-# Suzanne in A-Frame
+# My car in A-Frame
 
 Student: Ona Demuytere
 
